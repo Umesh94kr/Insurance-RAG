@@ -30,26 +30,24 @@ Ensure you have Ollama installed and the model downloaded:
    ```
 
 2. Create a .env file, and add your huggingface token to that
-    bash```
-    HF_TOKEN="your_hf_token"
-    ```
+    - HF_TOKEN="your_hf_token"
 
-2. **Create a virtual environment**
+3. **Create a virtual environment**
     ```bash
     python3 -m venv myenv
     ```
 
-3. **Activate the environment**
+4. **Activate the environment**
     ```bash
     source myenv/bin/activate 
     ```
 
-4. **Install dependencies**
+5. **Install dependencies**
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Run RAG application**
+6. **Run RAG application**
     ```bash
     python3 Medical-RAG/main.py
     ```
