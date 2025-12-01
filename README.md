@@ -61,3 +61,12 @@ In your terminal go to project directory
 Server starts running, you can copy local server URL, and test it on POSTMAN
 
 <img src="images/server-running.png" width="400">
+
+## **Parallely in new terminal you can start streamlit UI and test it**
+(Make sure your FastAPI is running)
+In new terminal go to project directory
+
+    python -m streamlit run frontend.py
+
+<img src="images/streamlit_ui.png" width="400">
+
