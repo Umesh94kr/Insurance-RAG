@@ -59,4 +59,5 @@ In your terminal go to project directory
     uvicorn app:app
     ```
 Server starts running, you can copy local server URL, and test it on POSTMAN
-<img src="/Users/umesh/Desktop/Insurance-RAG/Screenshot 2025-12-01 at 8.39.52 PM.png" width="400">
+
+<img src="images/server-running.png" width="400">
