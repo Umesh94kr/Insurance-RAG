@@ -51,3 +51,12 @@ Ensure you have Ollama installed and the model downloaded:
     ```bash
     python3 Medical-RAG/main.py
     ```
+
+
+## **Integrated FastAPI**
+In your terminal go to project directory 
+    ```bash
+    uvicorn app:app
+    ```
+Server starts running, you can copy local server URL, and test it on POSTMAN
+<img src="/Users/umesh/Desktop/Insurance-RAG/Screenshot 2025-12-01 at 8.39.52 PM.png" width="400">
