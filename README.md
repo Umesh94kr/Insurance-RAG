@@ -68,5 +68,5 @@ In new terminal go to project directory
 
     python -m streamlit run frontend.py
 
-<img src="images/streamlit_ui.png" width="400">
+<img src="images/streamlit_ui.png" width="700" height="600">
 
