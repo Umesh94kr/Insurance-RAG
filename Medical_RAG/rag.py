@@ -1,11 +1,13 @@
-from Medical_RAG.vectorstore_data import get_vectorstore
-import ollama
-
+# from Medical_RAG.vectorstore_data import get_vectorstore
+# import ollama
 
 class RAG:
     def __init__(self, mock=False):
         if mock:
             pass
+        # this is done to run CI tests
+        from Medical_RAG.vectorstore_data import get_vectorstore
+        #####
         self.vectorstore = get_vectorstore()
         self.history = []
 
@@ -43,6 +45,7 @@ class RAG:
     def call_llm(self, messages, mock=False):
         if mock:
             return "You are working correctly!"
+        import ollama
         response = ollama.chat(
             model='llama3.2',
             messages=messages

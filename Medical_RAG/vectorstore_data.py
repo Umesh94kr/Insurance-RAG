@@ -15,7 +15,7 @@ from pathlib import Path
 
 from pathlib import Path
 
-def get_project_root(project_name: str = "Insurance-RAG"):
+def get_project_root(project_name: str = "Medical-use-RAG"):
     current = Path(__file__).resolve()
     for parent in [current] + list(current.parents):
         if parent.name == project_name:
